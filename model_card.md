@@ -3,6 +3,7 @@
 ## Model Description
 
 **Input:** 
+
 This dataset has the 12 fundamental features input with 6497 samples which are responsible for affecting the quality of the wine. The inputs of dataset are: type, Fixed acidity, Volatile acidity, Citric acid, Residual sugar, Chlorides, Free sulfur dioxide, Total sulfur dioxide, Density, PH, Sulphates, Alcohol Output variable (based on sensory data).
 
 **Output:** 
@@ -10,6 +11,7 @@ This dataset has the 12 fundamental features input with 6497 samples which are r
 To predict human wine taste preferences the target feature is quality. The quality feature in a scale that ranges from 0 to 10, that matches very bad to excellent quality, respectively.  Consisdering this project as binary classification problem, by converting the quality feature into zeros and ones using data segregation to create a separate two different groups of classes.
 
 **Model Architecture:** 
+
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
@@ -30,6 +32,7 @@ Trainable params: 3,389
 Non-trainable params: 0
 
 _________________________________________________________________
+
 
 ## Performance
 
